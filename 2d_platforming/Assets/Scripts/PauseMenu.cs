@@ -41,5 +41,10 @@ public class PauseMenu: MonoBehaviour
         Time.timeScale = 1;
         pausePanel.SetActive(false);
         isPaused = false;
-    }   
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
